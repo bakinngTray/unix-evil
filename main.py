@@ -4,7 +4,7 @@ from flask import Flask, send_file
 
 app = Flask(__name__)
 
-
+#jndjvj
 @app.route('/')
 def index():
     return send_file('Novyi_774_Yunix.pdf')
